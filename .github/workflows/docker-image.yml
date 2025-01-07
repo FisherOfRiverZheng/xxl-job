@@ -25,6 +25,6 @@ jobs:
 
           cd xxl-job-admin
           # 使用Dockerfile构建镜像
-          docker build . --file Dockerfile --tag crpi-r8cio2xv4rcpn2ug.cn-hangzhou.personal.cr.aliyuncs.com/kdyzm/xxl-job-admin:2.4.2
+          docker build . --file Dockerfile --tag crpi-r8cio2xv4rcpn2ug.cn-hangzhou.personal.cr.aliyuncs.com/fisherbyxiang/xxl-job-admin:2.4.2
           # 推送镜像到镜像仓库
-          docker push crpi-r8cio2xv4rcpn2ug.cn-hangzhou.personal.cr.aliyuncs.com/kdyzm/xxl-job-admin:2.4.2
+          docker push crpi-r8cio2xv4rcpn2ug.cn-hangzhou.personal.cr.aliyuncs.com/fisherbyxiang/xxl-job-admin:2.4.2
